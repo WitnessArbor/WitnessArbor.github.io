@@ -108,7 +108,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/11/14/hello-world%20-old/" data-id="cm3hcoq590000oku38w3a40b9" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/11/14/hello-world%20-old/" data-id="cm3hi71ex0000j8u3amifeq4h" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -159,7 +159,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/11/14/hello-world/" data-id="cm3h1t9no00001wu3fycpgh98" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/11/14/hello-world/" data-id="cm3hi71f20002j8u34gn2fnyu" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -203,14 +203,14 @@
 <p>More info: （以下攻略适用到2024.11.11，还有新手不要随便安装插件，官方的也不行！！！）</p>
 <h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><h4 id="本地安装"><a href="#本地安装" class="headerlink" title="本地安装"></a>本地安装</h4><p>首先在磁盘中创建一个用来存放Github本地仓库文件的目录blog，右键 git bash 打开。</p>
 <p>More info: 1&#x2F;输入指令 npm install -g hexo-cli<br>           2&#x2F;输入指令 npm hexo init<br>           3&#x2F;输入指令 hexo s ,访问网站  <a href="localhost:4000">localhost:4000</a><br>           4&#x2F;输入指令 cd ~&#x2F;.ssh<br>           5&#x2F;输入指令 ssh-keygen -t rsa -C ‘注册时的邮箱地址’ （要回车几下）</p>
-<h4 id="配置仓库"><a href="#配置仓库" class="headerlink" title="配置仓库"></a>配置仓库</h4><p>More info: 1&#x2F;查看C盘目录(此文件夹所在C:\用户\用户名目录下)，找到刚刚生成的 .ssh 文件夹。<br>           2&#x2F;在记事本中打开 id_rsa.pub(网上有人说是id_rsa.put,看情况吧) 文件并复制生成的 key（全部）<br>           3&#x2F;在GitHub主页的头像下找到 seething，然后点击 SSH and GPG keys，点击 New SSH key<br>           4&#x2F;将刚刚在 ssh 目录下所复制的 key 复制进 Key 这个空(注意空格)（名字随意）。<br>           5&#x2F;在 git bash 下输入指令 ssh -T <a href="mailto:&#103;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a>（最后一次显示拒绝，显示22端口拒绝访问，要用这个指令 ssh -p 443 -T <a href="mailto:&#103;&#105;&#x74;&#x40;&#115;&#115;&#104;&#46;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#105;&#x74;&#x40;&#115;&#115;&#104;&#46;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#x6f;&#x6d;</a> 强制访问443端口）。<br>           6&#x2F;在 ？ 后输入 yes ,出现用户名成功。<br>           7&#x2F;输入指令 git config –global user.name “注册时用户名” 和 git config –global user.email “注册时邮箱” 进行绑定。</p>
-<h4 id="收尾工作"><a href="#收尾工作" class="headerlink" title="收尾工作"></a>收尾工作</h4><p>More info: 打开 blog 底下的 _config 文件，将末尾的代码改成下文：<br>deploy:<br>        type: git<br>        repo: <a href="mailto:&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#x69;&#x74;&#64;&#103;&#105;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#109;</a>:用户名&#x2F;用户名.github.io.git<br>        branch: main<br>        这样，博客就搭好了。（上传方法，请参照）<br>post_asset_folder</p>
+<h4 id="配置仓库"><a href="#配置仓库" class="headerlink" title="配置仓库"></a>配置仓库</h4><p>More info: 1&#x2F;查看C盘目录(此文件夹所在C:\用户\用户名目录下)，找到刚刚生成的 .ssh 文件夹。<br>           2&#x2F;在记事本中打开 id_rsa.pub(网上有人说是id_rsa.put,看情况吧) 文件并复制生成的 key（全部）<br>           3&#x2F;在GitHub主页的头像下找到 seething，然后点击 SSH and GPG keys，点击 New SSH key<br>           4&#x2F;将刚刚在 ssh 目录下所复制的 key 复制进 Key 这个空(注意空格)（名字随意）。<br>           5&#x2F;在 git bash 下输入指令 ssh -T <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#x62;&#46;&#x63;&#x6f;&#x6d;</a>（最后一次显示拒绝，显示22端口拒绝访问，要用这个指令 ssh -p 443 -T <a href="mailto:&#103;&#105;&#116;&#64;&#x73;&#115;&#x68;&#x2e;&#103;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#109;">&#103;&#105;&#116;&#64;&#x73;&#115;&#x68;&#x2e;&#103;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#99;&#111;&#109;</a> 强制访问443端口）。<br>           6&#x2F;在 ？ 后输入 yes ,出现用户名成功。<br>           7&#x2F;输入指令 git config –global user.name “注册时用户名” 和 git config –global user.email “注册时邮箱” 进行绑定。</p>
+<h4 id="收尾工作"><a href="#收尾工作" class="headerlink" title="收尾工作"></a>收尾工作</h4><p>More info: 打开 blog 底下的 _config 文件，将末尾的代码改成下文：<br>deploy:<br>        type: git<br>        repo: <a href="mailto:&#103;&#105;&#x74;&#x40;&#103;&#105;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#x6d;">&#103;&#105;&#x74;&#x40;&#103;&#105;&#116;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#x6d;</a>:用户名&#x2F;用户名.github.io.git<br>        branch: main<br>        这样，博客就搭好了。（上传方法，请参照）<br>post_asset_folder</p>
 <h2 id="虚拟机搭建"><a href="#虚拟机搭建" class="headerlink" title="虚拟机搭建"></a>虚拟机搭建</h2><h3 id="安装过程-1"><a href="#安装过程-1" class="headerlink" title="安装过程"></a>安装过程</h3><p>More info: 1&#x2F;下载虚拟机（我选用的是 Vmware v17.5.2-1）<br>           2&#x2F;下载镜像包： <a target="_blank" rel="noopener" href="https://releases.ubuntu.com/jammy/">Ubuntu 22.04</a> （后缀是 .iso） 和</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/10/04/%E7%BB%BC%E5%90%88%E4%BB%BB%E5%8A%A1/" data-id="cm3hcoq5f0004oku312kk2sxq" data-title="综合任务" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/10/04/%E7%BB%BC%E5%90%88%E4%BB%BB%E5%8A%A1/" data-id="cm3hi71f40005j8u39gsbg3gg" data-title="综合任务" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -248,7 +248,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/10/04/%E5%8F%91%E7%BA%A2%E7%9A%84%E6%B3%A1%E8%8A%99/" data-id="cm3hcoq5e0002oku39e02bxj6" data-title="发红的泡芙" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/10/04/%E5%8F%91%E7%BA%A2%E7%9A%84%E6%B3%A1%E8%8A%99/" data-id="cm3hi71f30004j8u36y009pe5" data-title="发红的泡芙" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -288,7 +288,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/10/03/%E7%BD%AA%E4%BA%BA%E8%88%9E%E6%AD%A5%E6%97%8B/" data-id="cm3hcoq5g0005oku37030bqai" data-title="罪人舞步旋" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/10/03/%E7%BD%AA%E4%BA%BA%E8%88%9E%E6%AD%A5%E6%97%8B/" data-id="cm3hi71f50006j8u38yg1ajva" data-title="罪人舞步旋" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -327,7 +327,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/10/02/lp/" data-id="cm3hcoq5d0001oku3gyp33xbp" data-title="lp" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/10/02/lp/" data-id="cm3hi71f10001j8u3ce3g32r6" data-title="lp" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -367,7 +367,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/09/30/%E5%8E%9F%E7%A5%9E%E5%9B%9B%E5%91%A8%E5%B9%B4%E5%BF%AB%E4%B9%90/" data-id="cm3hcoq5f0003oku38kxc7cui" data-title="原神四周年快乐" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/09/30/%E5%8E%9F%E7%A5%9E%E5%9B%9B%E5%91%A8%E5%B9%B4%E5%BF%AB%E4%B9%90/" data-id="cm3hi71f30003j8u36xwh5t9i" data-title="原神四周年快乐" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
